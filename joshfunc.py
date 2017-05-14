@@ -13,7 +13,18 @@ def help_book():
 	"To consult this manual in the future, type 'Help Book' \n")
 	
 def battle_sys(enemy):
+	from random import randint
 	print("You draw your weapon and prepare to square off against a fearsome " + enemy + "!")
+	print("Roll for Initiative!")
+	go_first = randint(1,2)
+	if go_first == 1:
+		print("You go first!")
+	if go_first == 2:
+		print("Oh nooooo, " + enemy + " goes first!")
+		
+battle_sys("Ginger")
+
+print(go_first)
 	
 
 
