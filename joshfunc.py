@@ -24,7 +24,6 @@ def battle_sys(enemy):
 		
 battle_sys("Ginger")
 
-print(go_first)
 	
 
 

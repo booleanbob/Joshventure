@@ -24,7 +24,7 @@ class RoomA1(Room):
 	short stucco buildings, their color worn away by the swift ocean breeze
 	that continues to blow your hair in different directions '''
 	
-	self.characters = [Ginger.name, "A Hobo"]
+	self.characters = [ginger.name, "A Hobo"]
 	
 	def getcharacters():
 		for char in self.characters:

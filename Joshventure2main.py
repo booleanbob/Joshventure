@@ -88,7 +88,7 @@ def hotel_mod():
 	
 	
 	print("There is a mirror on the wall where you can check your stats. Typing LOOK")
-	print("and the name of an object
+	print("and the name of an object")
 
 print("Welcome to Joshventure 2: The Joshening!")
 input("Press Enter to Continue |>o<|")
